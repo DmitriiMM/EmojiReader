@@ -13,6 +13,7 @@
 		A335B73527F0BCEE00B3B1F2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A335B73327F0BCEE00B3B1F2 /* Main.storyboard */; };
 		A335B73727F0BCEE00B3B1F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A335B73627F0BCEE00B3B1F2 /* Assets.xcassets */; };
 		A335B73A27F0BCEE00B3B1F2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A335B73827F0BCEE00B3B1F2 /* LaunchScreen.storyboard */; };
+		A335B74227F0BD2E00B3B1F2 /* EmojiTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A335B74127F0BD2E00B3B1F2 /* EmojiTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		A335B73627F0BCEE00B3B1F2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A335B73927F0BCEE00B3B1F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A335B73B27F0BCEE00B3B1F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A335B74127F0BD2E00B3B1F2 /* EmojiTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		A335B72C27F0BCEE00B3B1F2 /* EmojiReader */ = {
 			isa = PBXGroup;
 			children = (
+				A335B74127F0BD2E00B3B1F2 /* EmojiTableViewController.swift */,
 				A335B72D27F0BCEE00B3B1F2 /* AppDelegate.swift */,
 				A335B72F27F0BCEE00B3B1F2 /* SceneDelegate.swift */,
 				A335B73127F0BCEE00B3B1F2 /* ViewController.swift */,
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A335B74227F0BD2E00B3B1F2 /* EmojiTableViewController.swift in Sources */,
 				A335B73227F0BCEE00B3B1F2 /* ViewController.swift in Sources */,
 				A335B72E27F0BCEE00B3B1F2 /* AppDelegate.swift in Sources */,
 				A335B73027F0BCEE00B3B1F2 /* SceneDelegate.swift in Sources */,
